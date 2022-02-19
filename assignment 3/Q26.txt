@@ -1,0 +1,11 @@
+Q26. Given the string pres (value is "Adams, John Quincy" ) and the 40-character temporary variables
+     tmp1 and tmp2, what string is displayed by the following code fragment?
+
+    strncpy(tmp1, &pres[7], 4);
+    tmp1[4] = ’\0’;
+    strcat(tmp1, " ");
+    strncpy(tmp2, pres, 5);
+    tmp2[5] = ’\0’;
+    printf("%s\n", strcat(tmp1, tmp2));
+
+    

@@ -1,0 +1,11 @@
+Q16. Find the output of the following code segment for the function call cc=countchar(‘‘Encourged
+     to Vaccinate’’)
+     int countchar(char *s){
+        int n;
+        for(n=0; *s!=’\0’; s++){
+            n++;
+        }
+        return n;
+     }
+
+     output: it will return 21

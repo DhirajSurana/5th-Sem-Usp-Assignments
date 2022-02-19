@@ -1,0 +1,17 @@
+20. The function header is given as;
+    int charcopy(char *s, char *t)
+    {
+        int i=0;
+        while((*s++=*t++)!=’\0’){
+        i++;
+    }
+    *s=’\0’;
+    return(i);
+    }
+    
+    Compute the output of the following code segment
+    char pmsg[60];
+    charcopy(pmsg,"Studied in CSE");
+    printf("%d...%s\n",nc,pmsg);
+    
+    output: segmentation error

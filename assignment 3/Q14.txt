@@ -1,0 +1,6 @@
+Q14.Write an equivalent statement for the function’s formal parameter a, whose header/definition is given
+    as f(int a[], int n, float y) {.........}.
+
+    int a[], 
+    int n,
+    float y

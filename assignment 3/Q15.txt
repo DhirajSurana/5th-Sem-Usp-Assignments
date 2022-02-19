@@ -1,0 +1,12 @@
+Q15. Find the output of the following code segment for the function call bc=bytescount(‘‘COVID-19
+     Still Active’’)
+
+    int bytescount(char *s){
+        char *p;
+        while(*p!=’\0’){
+        p++;
+        }
+        return p-s;
+    }
+
+    output: no output

@@ -1,0 +1,6 @@
+/*
+Consider the given ’C’ line for main function int main(int argc, char *argv[]). Here,
+the argc parameter contains the number of command-line tokens or arguments, and argv is an
+array of pointers to the command-line tokens. The argv is an example of an argument array. Write
+a complete C code with command-line arguments to main and check/verify the outputs.
+*/

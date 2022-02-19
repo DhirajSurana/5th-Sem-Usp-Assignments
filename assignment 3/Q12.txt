@@ -1,0 +1,10 @@
+/*
+Q12. Let p be a pointer to an integer array and n is a scalar value. State the significance of the statement
+     p+n.
+*/
+As per pointer arithmetic p+n will give the memory address = p+n*(2)
+
+example:  if p = 222 and n = 4
+          then p + n = 222 + 4 * 2
+                     = 222 + 8
+                     = 230

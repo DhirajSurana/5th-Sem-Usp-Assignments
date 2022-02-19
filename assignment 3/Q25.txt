@@ -1,0 +1,18 @@
+25. Draw an array to show the output of the function, strcat(s1, s2), used in the following code
+    snippet and also write the output.
+
+    #define STRSIZ 20
+    char s1[STRSIZ]="Jupiter ", s2[STRSIZ]="Symphony";
+    printf("%d %d\n", strlen(s1), strlen(strcat(s1, s2)));
+    printf("%s\n", s1);
+
+    STRSIZ                       STRSIZ
+      ||                           ||
+    Jupiter                   JupiterSymphony
+    len = 7                     len = 15
+
+    output:
+    7 15
+    JupiterSymphony
+
+         

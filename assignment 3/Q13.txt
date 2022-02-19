@@ -1,0 +1,5 @@
+Q13.If arname is an array, the function call f(&arname[2]); passes part of an array to the function
+    by passing a pointer to the begining of the sub-array. Write an equivalent statement for the call
+    f(&arname[2]);.
+
+    f(&arname[2]);

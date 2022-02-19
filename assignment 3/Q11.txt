@@ -1,0 +1,26 @@
+/*
+Q11. For the given declarations int a[10]; int *pa; and assignment pa=a;, select the legal / IILEGAL 
+    statements from the followings
+
+    (a) pa=a;         
+    (b) pa=&a[0]; 
+    (c) pa++; 
+    (d) a=pa 
+    (e) a++ 
+    (f) is pa[i] identical to *(pa+i)?
+    (g) is &a[i] identical to (a+i)?
+    (h) is a[i] identical to *(a+i)?
+    (i) is pa[i] identical to a[i]?
+    (j) is void f(char str[]){...}identical to void f(char *str){...}?
+    (k) If a is an array, is f(&a[2]) identical to f(a+2);
+*/
+************* LEGAL **************************** ILLEGAL ******************
+(a) pa=a;                                         (d) a=pa
+(b) pa=&a[0];                                     (e) a++
+(c) pa++;                                         (k) If a is an array, 
+(f) is pa[i] identical to *(pa+i)?                    is f(&a[2]) identical 
+(g) is &a[i] identical to (a+i)?                      to f(a+2);
+(h) is a[i] identical to *(a+i)?
+(i) is pa[i] identical to a[i]?
+(j) is void f(char str[]){...}identical to 
+    void f(char *str){...}?

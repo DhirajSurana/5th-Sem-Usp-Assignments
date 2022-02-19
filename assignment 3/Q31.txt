@@ -1,0 +1,7 @@
+Q31. What is the value of t1 after execution of these statements
+    if the value of t2 is ‘‘Merry Christmas’’?
+        strncpy(t1, &t2[3], 5);
+        t1[5] = ’\0’;
+
+    answer:
+        t1 = ry ch

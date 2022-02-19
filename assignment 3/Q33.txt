@@ -1,0 +1,8 @@
+Q33. What does this program fragment display?
+        char x[80] = "gorilla";
+        char y[80] = "giraffe";
+        strcat(x, y);
+        printf("%s %s\n", x, y);
+
+        output:
+        gorilla giraffe
